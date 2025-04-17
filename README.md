@@ -83,7 +83,7 @@ plt.show()
 
 ### Salary Analysis for Data Nerds
 
-#### Visualize Data
+### Visualize Data
 
 ```python
 sns.boxplot(data=df_US_top6, x='salary_year_avg', y='job_title_short', order=job_order)
@@ -92,13 +92,13 @@ plt.gca().xaxis.set_major_formatter(ticks_x)
 plt.show()
 ```
 
-#### Results
+### Results
 
 ![Salary Distributions of Data Jobs in the US](3_Project/images/salary_analysis.png)
 
 *Box plot visualizing the salary distributions for the top 6 data job titles.*
 
-#### Insights
+### Insights
 
 - Senior Data Scientist positions tend to have the highest salary potential, with up to $600K, indicating the high value placed on advanced data skills and experience in the industry.
 
